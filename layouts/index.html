@@ -1,0 +1,17 @@
+{{ define "main" }}
+<h2>Welcome</h2>
+{{ .Content }}
+
+<h3>Recent Posts</h3>
+<ul class="post-list">
+  {{ range first 5 (where .Site.RegularPages "Section" "blog") }}
+  <li>
+    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    <p class="meta">{{ .Date.Format "January 2, 2006" }}</p>
+    {{ if .Summary }}<p>{{ .Summary }}</p>{{ end }}
+  </li>
+  {{ else }}
+  <li><p>No posts yet. <a href="/admin/">Create your first post</a>.</p></li>
+  {{ end }}
+</ul>
+{{ end }}
