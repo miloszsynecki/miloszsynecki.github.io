@@ -10,11 +10,12 @@ pagerSize = 6
 
 [params]
   author = "Milosz Synecki"
-  info = "Software Engineer"
+  info = ["Software Engineer", "Problem Solver"]
   description = "Personal blog and portfolio"
   keywords = "blog,developer,personal"
   dateFormat = "January 2, 2006"
   since = 2026
+  avatarURL = "images/avatar.svg"
   colorScheme = "auto"
   hideColorSchemeToggle = false
 
@@ -47,6 +48,26 @@ pagerSize = 6
   icon = "fa-brands fa-github fa-2x"
   weight = 1
   url = "https://github.com/miloszsynecki/"
+
+[[params.social]]
+  name = "X"
+  icon = "fa-brands fa-x-twitter fa-2x"
+  weight = 2
+  url = "https://x.com/"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 3
+  url = "https://www.linkedin.com/"
+
+[[params.social]]
+  name = "RSS"
+  icon = "fa-solid fa-rss fa-2x"
+  weight = 4
+  url = "/index.xml"
+  rel = "alternate"
+  type = "application/rss+xml"
 
 [markup]
   [markup.goldmark]
