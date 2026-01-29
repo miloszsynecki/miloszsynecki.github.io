@@ -1,25 +1,52 @@
 baseURL = "https://miloszsynecki.github.io/"
-languageCode = "en-us"
+languageCode = "en"
 title = "Milosz Synecki"
 theme = "hugo-coder"
+defaultContentLanguage = "en"
+enableEmoji = true
+
+[pagination]
+pagerSize = 6
 
 [params]
-  description = "Personal blog and portfolio"
   author = "Milosz Synecki"
+  info = "Software Engineer"
+  description = "Personal blog and portfolio"
+  keywords = "blog,developer,personal"
+  dateFormat = "January 2, 2006"
+  since = 2026
+  colorScheme = "auto"
+  hideColorSchemeToggle = false
 
 [menu]
   [[menu.main]]
-    name = "Home"
-    url = "/"
+    name = "Blog"
+    url = "/posts/"
     weight = 1
   [[menu.main]]
-    name = "Blog"
-    url = "/blog/"
+    name = "About"
+    url = "/about/"
     weight = 2
   [[menu.main]]
-    name = "Admin"
-    url = "/admin/"
+    name = "Projects"
+    url = "/projects/"
     weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/miloszsynecki/"
 
 [markup]
   [markup.goldmark]

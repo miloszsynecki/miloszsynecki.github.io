@@ -2,6 +2,6 @@
 title: "Home"
 ---
 
-Welcome to my personal blog. Here I share thoughts, tutorials, and projects.
+Welcome to my personal site. I share thoughts, tutorials, and projects here.
 
-Check out the [blog](/blog/) for my latest posts, or use the [admin panel](/admin/) to manage content.
+Check out the [blog](/posts/) for the latest posts.
