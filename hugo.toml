@@ -1,7 +1,6 @@
 baseURL = "https://miloszsynecki.github.io/"
 languageCode = "en-us"
 title = "Milosz Synecki"
-theme = ""
 
 [params]
   description = "Personal blog and portfolio"
