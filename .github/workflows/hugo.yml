@@ -50,8 +50,15 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Initialize Hugo Modules
+        run: |
+          if [ ! -f go.mod ]; then
+            hugo mod init github.com/miloszsynecki/miloszsynecki.github.io
+          fi
       - name: Setup Hugo Modules
-        run: hugo mod get -u
+        run: |
+          hugo mod get -u
+          hugo mod tidy
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
