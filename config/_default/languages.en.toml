@@ -9,15 +9,15 @@ isoCode = "en"
 rtl = false
 dateFormat = "January 2, 2006"
 description = "Personal blog and portfolio"
-keywords = "blog,developer,personal"
+keywords = ["blog", "developer", "personal"]
 
 [params.author]
 name = "Milosz Synecki"
 image = "images/avatar.svg"
 headline = "Software Engineer, Problem Solver"
 bio = "Hi, I'm Milosz. I build software and write about what I learn along the way."
-
-[params.author.links]
-github = "https://github.com/miloszsynecki/"
-twitter = "https://x.com/"
-linkedin = "https://www.linkedin.com/"
+links = [
+  { github = "https://github.com/miloszsynecki/" },
+  { twitter = "https://x.com/" },
+  { linkedin = "https://www.linkedin.com/" }
+]
