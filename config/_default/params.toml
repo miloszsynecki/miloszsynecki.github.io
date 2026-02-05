@@ -4,9 +4,15 @@ defaultAppearance = "light"
 autoSwitchAppearance = true
 
 # Homepage
-homepage.layout = "profile"
+homepage.layout = "background"
+homepage.homepageImage = "images/homepage.svg"
 homepage.showRecent = true
-homepage.showRecentItems = 5
+homepage.showRecentItems = 6
+homepage.showMoreLink = true
+homepage.showMoreLinkDest = "/posts"
+homepage.cardView = true
+homepage.cardViewScreenWidth = true
+homepage.layoutBackgroundBlur = true
 
 # Article
 article.showDate = true
@@ -22,7 +28,12 @@ article.showComments = false
 # List
 list.showSummary = true
 list.showCards = false
+list.cardView = true
+list.cardViewScreenWidth = true
 list.groupByYear = true
+
+# Sections
+mainSections = ["posts"]
 
 # Search
 enableSearch = true
