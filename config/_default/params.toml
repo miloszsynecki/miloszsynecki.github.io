@@ -1,0 +1,37 @@
+# Theme parameters
+colorScheme = "blowfish"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+# Homepage
+homepage.layout = "profile"
+homepage.showRecent = true
+homepage.showRecentItems = 5
+
+# Article
+article.showDate = true
+article.showDateUpdated = false
+article.showAuthor = true
+article.showReadingTime = true
+article.showTableOfContents = false
+article.showPagination = true
+article.showTaxonomies = true
+article.showWordCount = false
+article.showComments = false
+
+# List
+list.showSummary = true
+list.showCards = false
+list.groupByYear = true
+
+# Search
+enableSearch = true
+
+# Code
+enableCodeCopy = true
+
+# Footer
+footer.showMenu = true
+footer.showCopyright = true
+footer.showThemeAttribution = true
+footer.showScrollToTop = true

@@ -1,0 +1,27 @@
+baseURL = "https://miloszsynecki.github.io/"
+languageCode = "en"
+title = "Milosz Synecki"
+# Theme is managed via module.toml (Hugo Modules)
+defaultContentLanguage = "en"
+enableEmoji = true
+enableRobotsTXT = true
+summaryLength = 0
+
+[pagination]
+pagerSize = 6
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
