@@ -38,6 +38,6 @@ At BKN301 S.p.A. (Nov 2023 - Present), I work as a Senior Fullstack .NET Develop
 
 ## Blog
 
-I write about software architecture, delivery practices, and lessons from real production systems.
+This is a space for various topics: technology, internet culture, ideas, and anything worth sharing.
 
 - [Read the blog](/posts/)

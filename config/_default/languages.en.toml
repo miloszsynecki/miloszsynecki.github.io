@@ -10,6 +10,7 @@ rtl = false
 dateFormat = "January 2, 2006"
 description = "Personal blog and portfolio"
 keywords = ["blog", "developer", "personal"]
+readMore = "Read more"
 
 [params.logo]
 logoText = "Miłosz Synecki"

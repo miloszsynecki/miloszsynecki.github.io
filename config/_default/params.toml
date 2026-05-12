@@ -1,5 +1,5 @@
 [params]
-contentTypeName = "posts"
+contentTypeName = "notes"
 showMenuItems = 4
 fullWidthTheme = false
 centerTheme = true
