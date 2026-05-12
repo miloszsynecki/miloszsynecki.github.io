@@ -17,9 +17,28 @@
 }
 
 .home-photo {
-  width: min(220px, 60vw);
+  width: min(500px, 90vw);
   margin: 14px auto 8px;
   display: block;
+}
+
+.header__penguin {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  flex: 0 0 auto;
+}
+
+.header__penguin-icon {
+  height: 32px !important;
+  max-width: none !important;
+  display: block;
+  border: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
 }
 
 @media (max-width: 684px) {
@@ -30,6 +49,18 @@
   }
 
   .home-photo {
-    width: min(180px, 70vw);
+    width: min(500px, 90vw);
+    margin: 14px auto 8px;
+    display: block;
+  }
+
+  .header__penguin {
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+  }
+
+  .header__penguin-icon {
+    height: 32px !important;
   }
 }

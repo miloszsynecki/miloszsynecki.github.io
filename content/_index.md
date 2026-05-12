@@ -7,7 +7,7 @@ description: "Senior Fullstack .NET Developer portfolio and blog."
 
 # Hi, I'm Miłosz
 
-![Profile photo placeholder](/images/milosz-photo.jpg){.home-photo}
+<img src="/images/milosz-photo.jpg" alt="Profile photo" class="home-photo" />
 
 I'm a Senior Fullstack .NET Software Developer building fintech and enterprise web platforms.
 
