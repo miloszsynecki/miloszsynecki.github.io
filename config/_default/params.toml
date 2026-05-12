@@ -1,48 +1,12 @@
-# Theme parameters
-colorScheme = "papaya"
-defaultAppearance = "light"
-autoSwitchAppearance = true
+[params]
+contentTypeName = "posts"
+showMenuItems = 4
+fullWidthTheme = false
+centerTheme = true
+themeColor = "orange"
+showLastUpdated = false
+readingTime = true
 
-# Homepage
-homepage.layout = "background"
-homepage.homepageImage = "images/homepage.svg"
-homepage.showRecent = true
-homepage.showRecentItems = 6
-homepage.showMoreLink = true
-homepage.showMoreLinkDest = "/posts"
-homepage.cardView = true
-homepage.cardViewScreenWidth = true
-homepage.layoutBackgroundBlur = true
-
-# Article
-article.showDate = true
-article.showDateUpdated = false
-article.showAuthor = true
-article.showReadingTime = true
-article.showTableOfContents = false
-article.showPagination = true
-article.showTaxonomies = true
-article.showWordCount = false
-article.showComments = false
-
-# List
-list.showSummary = true
-list.showCards = false
-list.cardView = true
-list.cardViewScreenWidth = true
-list.groupByYear = true
-
-# Sections
-mainSections = ["posts"]
-
-# Search
-enableSearch = true
-
-# Code
-enableCodeCopy = true
-
-# Footer
-footer.showMenu = true
-footer.showCopyright = true
-footer.showThemeAttribution = true
-footer.showScrollToTop = true
+[params.logo]
+logoText = "Miłosz Synecki"
+logoHomeLink = "/"

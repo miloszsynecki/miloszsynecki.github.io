@@ -1,16 +1,43 @@
 ---
 title: "Home"
-description: "A personal site built with Hugo and Blowfish."
+description: "Senior Fullstack .NET Developer portfolio and blog."
 ---
 
-# Welcome to my site
+<div class="home-hero">
 
-## A clean, lightweight space for writing and projects.
+# Hi, I'm Miłosz
 
-This is a demo of the `background` homepage layout. Explore recent posts and projects below.
+![Profile photo placeholder](/images/milosz-photo.jpg){.home-photo}
 
-```shell
-npx blowfish-tools
-```
+I'm a Senior Fullstack .NET Software Developer building fintech and enterprise web platforms.
 
-Want more? Browse the [blog](/posts/) for the full archive.
+</div>
+
+## Profile
+
+I design and deliver reliable software across backend, frontend, and cloud infrastructure. I have collaborated with teams across Europe, the US, and India, combining strong technical ownership with clear communication.
+
+## Core Skills
+
+- C#, .NET Core, .NET 8-9, ASP.NET Core
+- REST API design, Entity Framework Core
+- PostgreSQL, MongoDB, RabbitMQ
+- Angular (8-18), TypeScript, NgRx, Nx
+- Microservices, DDD, event-driven architecture
+- AWS, Azure DevOps CI/CD, Docker, Jenkins, OpenTelemetry
+
+## Current Focus
+
+At BKN301 S.p.A. (Nov 2023 - Present), I work as a Senior Fullstack .NET Developer on payment services for multiple European markets, including merchant onboarding, card flows, compliance, and reporting.
+
+## Selected Work
+
+- [Projects](/projects/): Delivery highlights from fintech, utilities, and logistics platforms.
+- [About](/about/): Experience timeline, education, and working style.
+- [Contact](/contact/): Email and professional links.
+
+## Blog
+
+I write about software architecture, delivery practices, and lessons from real production systems.
+
+- [Read the blog](/posts/)

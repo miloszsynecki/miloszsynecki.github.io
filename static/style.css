@@ -1,0 +1,35 @@
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  border-right: none;
+  border-left: 1px solid color-mix(in srgb, var(--accent) 10%, transparent);
+  border-right: 1px solid color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+.home-hero {
+  text-align: center;
+}
+
+.home-hero p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70ch;
+}
+
+.home-photo {
+  width: min(220px, 60vw);
+  margin: 14px auto 8px;
+  display: block;
+}
+
+@media (max-width: 684px) {
+  .container {
+    max-width: 100%;
+    border-left: none;
+    border-right: none;
+  }
+
+  .home-photo {
+    width: min(180px, 70vw);
+  }
+}

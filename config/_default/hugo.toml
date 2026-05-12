@@ -1,7 +1,6 @@
 baseURL = "https://miloszsynecki.github.io/"
-languageCode = "en"
-title = "Milosz Synecki"
-# Theme is managed via module.toml (Hugo Modules)
+title = "Miłosz Synecki"
+theme = "hugo-theme-terminal"
 defaultContentLanguage = "en"
 enableEmoji = true
 enableRobotsTXT = true
@@ -11,7 +10,7 @@ summaryLength = 0
 pagerSize = 6
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS"]
 
 [taxonomies]
 category = "categories"

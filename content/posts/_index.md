@@ -1,3 +1,5 @@
 ---
-title: "Posts"
+title: "Blog"
 ---
+
+Writing about software development, architecture, and delivery.

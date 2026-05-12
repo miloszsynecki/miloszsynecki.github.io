@@ -1,7 +1,7 @@
-languageCode = "en"
-languageName = "English"
+locale = "en"
+label = "English"
 weight = 1
-title = "Milosz Synecki"
+title = "Miłosz Synecki"
 
 [params]
 displayName = "EN"
@@ -11,8 +11,12 @@ dateFormat = "January 2, 2006"
 description = "Personal blog and portfolio"
 keywords = ["blog", "developer", "personal"]
 
+[params.logo]
+logoText = "Miłosz Synecki"
+logoHomeLink = "/"
+
 [params.author]
-name = "Milosz Synecki"
+name = "Miłosz Synecki"
 image = "images/avatar.svg"
 headline = "Software Engineer, Problem Solver"
 bio = "Hi, I'm Milosz. I build software and write about what I learn along the way."
